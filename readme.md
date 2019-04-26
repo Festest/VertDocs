@@ -1,32 +1,32 @@
 # VertDocs
 
-Documentation for Vertcoin.
+Documentation para o Vertcoin.
 
 ## Primer to Contribution
 
-If you already have contributed to a project before, then you can skip this part.
+Se já contribuiste para o projeto antes podes avançar.
 
-### Getting Started
-- Create your own Github account if you don't already have one
+### O Começo
+- Cria uma conta no Github caso não tenhas uma.
 
 ### Forking the Documentation
-- Click the fork button near the top right of the screen
+- Clica no botão "Fork" à direita, em cima.
 
-### Getting the Docs on Your Machine
-- This is a process called "cloning". The following command clones an exact copy of the repository to your machine. Open up a terminal and type (or copy and paste)
+### Obeter os Docs na tua Máquina
+- Este processo é denominado de "cloning". O comando seguinte irá clonar uma cópia exata do repositório para a tua máquina. Abre o terminal e escreve (ou faz copiar e colar)
 
 ```
 git clone git@github.com:username/VertDocs.git
 ```
 
-### Keeping the Fork Updated
-- You cloned the fork. However, this doesn't mean it always be up to date since changes will happen to the original. To keep up to date, you will need to add a remote to your local repository. We will call it "upstream". Use the command below:
+### Manter o teu Fork atualizado
+- Tu clonaste o fork. Contudo, isto não significa que ele irá estar sempre atualizado, já que mudanças irão acontecer no original. Para o manter atualizado, precisas de adicionar um "remote" no teu repositório local. Nós chamamos-lhe de "upstream". Utiliza o comando abaixo:
 
 ```
 git remote add upstream https://github.com/vertcoin-project/VertDocs.git
 ```
 
-- You can use below command to check if usptream was added correctly:
+- Podes utilizar o comando abaixo para verificar se o usptream foi adicionado corretamente:
 
 ```
 git remote -v
