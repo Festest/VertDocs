@@ -2,14 +2,14 @@
 
 Documentation para o Vertcoin.
 
-## Primer to Contribution
+## Primeira Contribuição
 
 Se já contribuiste para o projeto antes podes avançar.
 
 ### O Começo
 - Cria uma conta no Github caso não tenhas uma.
 
-### Forking the Documentation
+### Fazer o Fork da Documentação
 - Clica no botão "Fork" à direita, em cima.
 
 ### Obeter os Docs na tua Máquina
@@ -20,7 +20,7 @@ git clone git@github.com:username/VertDocs.git
 ```
 
 ### Manter o teu Fork atualizado
-- Tu clonaste o fork. Contudo, isto não significa que ele irá estar sempre atualizado, já que mudanças irão acontecer no original. Para o manter atualizado, precisas de adicionar um "remote" no teu repositório local. Nós chamamos-lhe de "upstream". Utiliza o comando abaixo:
+- Tu clonaste o fork. Contudo, isto não significa que este irá estar sempre atualizado, já que certamente irão ocorrer alterações nos documentos originais. Para o manter atualizado, precisas de adicionar um "remote" no teu repositório local. Nós chamamos-lhe de "upstream". Utiliza o comando abaixo:
 
 ```
 git remote add upstream https://github.com/vertcoin-project/VertDocs.git
