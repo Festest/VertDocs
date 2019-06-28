@@ -1,20 +1,21 @@
-# Vertcoin Core Wallet
+# A Carteira Vertcoin Core
 ![CoreWallet](https://i.imgur.com/gl5am5j.png)
-## Installation
+## Instalação
 
 ### Github Download
 
-To install the Vertcoin Core wallet, navigate to the Vertcoin Core repository [Releases Page](https://github.com/vertcoin/vertcoin/releases) on GitHub and download the binary file for the latest release. Windows, Linux and OSX versions are availiable.
+Para instalar a carteira Vertcoin Core, navega até ao repositório do Vertcoin Core [Página das versões lançadas] (https://github.com/vertcoin/vertcoin/releases) no GitHub e faz o download dos ficheiros da versão mais recente. Versões para o Windows, Linux e OSX estão disponíveis.
 
-Inside the zipped download you will find four applications; vertcoin-qt, 
-vertcoind, vertcoin-cli and vertcoin-tx.
+Dentro do ficheiro zip que fez download encontra 4 aplicações: vertcoin-qt, vertcoind, vertcoin-cli and vertcoin-tx.
 
-| Application  | Description                                                      |
+| Aplicação    | Descrição                                                        |
 |--------------|------------------------------------------------------------------|
-| vertcoin-qt  | Core wallet with a GUI interface.                                |
-| vertcoind    | Headless daemon core wallet.                                     |
-| vertcoin-cli | Command line interface for interacting with vertcoind.           |
-| vertcoin-tx  | Command line interface to  create, parse, or modify transactions |
+| vertcoin-qt  | Carteira Core com a interface GUI.                               |
+| vertcoind    | "Daemon" da carteira Core.                                       |
+| vertcoin-cli | Interface de "Command line" para interagir com o vertcoind.      |
+| vertcoin-tx  | Interface de "Command line" para criar create, parse, or modify transactions |
+
+Para iniciar o Vertcoin Core, execute o ficheiro vertcoin-qt. Isto irá iniciar a carteira com a interface GUI. Poderá, opcionalmente, escolher executar a carteira como um "deamon" que ficará ativo no background através do ficheiro vertcoind.
 
 To start the Vertcoin Core Wallet, launch the vertcoin-qt file. This will start the wallet with GUI interface. You could optionally launch the wallet as a deamon to run in the backgeound with vertcoind.
 
