@@ -2,26 +2,24 @@
 ![CoreWallet](https://i.imgur.com/gl5am5j.png)
 ## Instalação
 
-### Github Download
+### Download através do GitHub
 
 Para instalar a carteira Vertcoin Core, navega até ao repositório do Vertcoin Core [Página das versões lançadas] (https://github.com/vertcoin/vertcoin/releases) no GitHub e faz o download dos ficheiros da versão mais recente. Versões para o Windows, Linux e OSX estão disponíveis.
 
-Dentro do ficheiro zip que fez download encontra 4 aplicações: vertcoin-qt, vertcoind, vertcoin-cli and vertcoin-tx.
+Dentro do ficheiro zip que descarregou, encontram-se 4 aplicações: vertcoin-qt, vertcoind, vertcoin-cli e ainda o vertcoin-tx.
 
 | Aplicação    | Descrição                                                        |
 |--------------|------------------------------------------------------------------|
 | vertcoin-qt  | Carteira Core com a interface GUI.                               |
 | vertcoind    | "Daemon" da carteira Core.                                       |
-| vertcoin-cli | Interface de "Command line" para interagir com o vertcoind.      |
-| vertcoin-tx  | Interface de "Command line" para criar create, parse, or modify transactions |
+| vertcoin-cli | Interface de Terminal para interagir com o vertcoind.            |
+| vertcoin-tx  | Interface de Terminal para criar, validar e modificar transações |
 
-Para iniciar o Vertcoin Core, execute o ficheiro vertcoin-qt. Isto irá iniciar a carteira com a interface GUI. Poderá, opcionalmente, escolher executar a carteira como um "deamon" que ficará ativo no background através do ficheiro vertcoind.
+Para iniciar o Vertcoin Core, execute o ficheiro vertcoin-qt. Isto irá iniciar a carteira com a interface GUI. Poderá, opcionalmente, escolher executar a carteira como um "deamon", que ficará ativo no background, através do ficheiro vertcoind.
 
-To start the Vertcoin Core Wallet, launch the vertcoin-qt file. This will start the wallet with GUI interface. You could optionally launch the wallet as a deamon to run in the backgeound with vertcoind.
-
-### Linux Ubuntu PPA Download
-You can install vertcoind (headless daemon) or the GUI wallet vertcoin-qt via
-the Vertcoin ppa.
+### Download PPA no Linux Ubuntu
+Pode instalar k vertcoind (headless deamon) ou a carteira com interface GUI,
+vertcoin-qt via Vertcoin ppa.
 
 ``` shell
 $ sudo add-apt-repository ppa:vertcoin/ppa
@@ -29,23 +27,23 @@ $ sudo apt-get update
 ```
 
 ##### vertcoind
-Then to install vertcoind run:
+Seguidamente, para instalar o vertcoind execute:
 ``` shell
 $ sudo apt-get install vertcoind
 ```
 
-Launch vertcoind from the command line with:
+Inicie o vertcoind através do terminal com o seguinte comando:
 ``` shell
 $ vertcoind -daemon
 ```
 
-And interact with vertcoind via:
+Pode interagir com o vertcoind via:
 ``` shell
 $ vertcoin-cli help
 ```
 
 ##### vertcoin-qt
-To install the GUI wallet:
+Para instalar a carteira com interface GUI:
 ``` shell
 $ sudo apt-get install vertcoin-qt
 ```
