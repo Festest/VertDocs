@@ -48,17 +48,17 @@ Para instalar a carteira com interface GUI:
 $ sudo apt-get install vertcoin-qt
 ```
 
-Pode posteriormente executar o Vertcoin através do icon da aplicação que estará no launcher.
+Completados estes passos, poderá executar o Vertcoin através do icon da aplicação que estará no seu launcher.
 
 ##  Executar o Vertcoin Core
 Na primeira vez que executar o Vertcoin Core poderá escolher onde gostaria de armazenar os dados. Neste passo, pode deixar o diretório padrão ou escolher aquele que lhe é mais favorável. Depois de selecionado o diretório e avançar, o Vertcoin Core tentará conectar-se a outros Vertcoin Core nodes para que possa fazer o download completo da blockchain do Vertcoin.
 
 ![FirstRun](https://i.imgur.com/C0HQXyI.png)
 
-!!!caution "Note"
-    The Vertcoin Core Wallet requires at least 4 GB of space on your computer to store the blockchain. Downloading the entire chain for the for time may take a while.
+!!!Atenção "Nota"
+    A carteira Vertcoin Core necessita de pelo menos 5 GB de espaço livre no seu computador para que possa armazenar a blockchain. Fazer o download desta pela primeira vez pode ser um processo demoroso.
 
-As the blockchain downloads, you'll see progress displayed as well as the latest block synced. Every time Vertcoin Core is launced, your local copy of the blockchain will need to be synced to the current block.
+À medida que a blockchain é descarregada, poderá ver o progresso do download, assim como os últimos blocks a serem sincronizados. Cada vez que a carteira é executada, a sua cópia local da blockchain precisará de ser sincronizada até ao bloco atual.
 
 ## Backing Up Your Wallet
 It is important to understand that vertcoin wallets contain only keys. The "coins" are recorded in the blockchain on the vertcoin network. Users control the coins on the network by signing transactions with the keys in their wallets. In a sense, a vertcoin wallet is a keychain.`[1]`
