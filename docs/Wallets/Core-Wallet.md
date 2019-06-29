@@ -48,10 +48,10 @@ Para instalar a carteira com interface GUI:
 $ sudo apt-get install vertcoin-qt
 ```
 
-You then can launch Vertcoin via the app icon installed  in the launcher.
+Pode posteriormente executar o Vertcoin através do icon da aplicação que estará no launcher.
 
-##  Running Vertcoin Core
-The first time you run Vertcoin Core, it wil ask where you would like to store its data. You may chose to store data in the default directory or you may chose your own. After selecting a directory and clicking next, Vertcoin Core will attempt to connect to other Vertcoin Core nodes and download a complete copy of the blockchain.
+##  Executar o Vertcoin Core
+Na primeira vez que executar o Vertcoin Core poderá escolher onde gostaria de armazenar os dados. Neste passo, pode deixar o diretório padrão ou escolher aquele que lhe é mais favorável. Depois de selecionado o diretório e avançar, o Vertcoin Core tentará conectar-se a outros Vertcoin Core nodes para que possa fazer o download completo da blockchain do Vertcoin.
 
 ![FirstRun](https://i.imgur.com/C0HQXyI.png)
 
