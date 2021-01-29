@@ -1,6 +1,6 @@
 # VertDocs
 
-Documentation para o Vertcoin.
+Documentação para o Vertcoin.
 
 ## Primeira Contribuição
 
